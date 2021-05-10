@@ -7,6 +7,10 @@
 ### updates a record with the script-runner's public IP, as resolved using a DNS
 ### lookup.
 ###
+### This script also stores your current IP to a file located here
+### /var/cache/ddns_update/current_ip
+### by default. This is so it only sends the API command when your IP changes.
+###
 ### Google Dynamic DNS: https://support.google.com/domains/answer/6147083
 ### Synthetic Records: https://support.google.com/domains/answer/6069273
 
